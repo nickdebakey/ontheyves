@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap');
+
+body {
+    background-color: lightgray;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition: 1s;
+}
+
+.red {
+    color: #7a0001;
+    display: inline-flex;
+}
+
+a {
+    color: #7a0001;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7a0001;
+    text-decoration: none;
+}
+
+.dark-mode {
+    background-color: black;
+    color: lightgray;
+    transition: 1s;
+}
+
+#darkModeBtn {
+    border-radius: 2rem;
+    line-height: 0.4rem;
+}
+
+#header {
+    text-align: center;
+}
+
+#ontheyves {
+    max-width: 90%;
+}
+
+#headerDivider {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#headerDivider img {
+    border: 1px solid #7a0001;
+    padding: 2rem;
+}
+
+#tagLine {
+    margin: 2rem;
+    letter-spacing: 0.25rem;
+}
+
+#tagLine a {
+    text-decoration: none;
+    color: #7a0001;
+}
+
+#aboutMe {
+    letter-spacing: 0.25rem;
+    text-align: center;
+}
+
+#otherSocials {
+    border-top: solid 0.1rem #7a0001;
+}
+
+#otherSocials p {
+    margin-bottom: -0.1rem;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: inherit;
+    text-align: center;
+}
+
+.tab button, #darkModeBtn {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1em;
+    transition: 0.3s;
+    border: solid #7a0001 1px;
+    color: #7a0001;
+}
+
+.tabcontent {
+    display: none;
+    padding: 0.5rem 1rem;
+    border-top: none;
+    text-align: center;
+    line-height: 2rem;
+}
+
+ul {
+    display: inline-block;
+    line-height: 1rem;
+}
+
+#stanListHolder {
+    display: inline-flex;
+    width: 100%;
+}
+
+#girlGroups {
+    width: 50%;
+    letter-spacing: 0.25rem;
+}
+
+#girlGroups ul {
+    margin-left: -2rem;
+}
+
+#girlGroups p {
+    color: #7a0001;
+}
+
+#boyGroups {
+    width: 50%;
+    letter-spacing: 0.25rem;
+}
+
+#boyGroups ul {
+    margin-left: -2rem;
+}
+
+#boyGroups li {
+    line-height: 1.7rem;
+}
+
+#boyGroups p {
+    color: #7a0001;
+}
+
+#biasList ul {
+    margin-left: -2rem;
+}
+
+#biasList li {
+    line-height: 1.7rem;
+}
+
+#byf ul {
+    letter-spacing: 0.25rem;
+    margin-left: -2rem;
+}
+
+#byf p {
+    color: #7a0001;
+}
