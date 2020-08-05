@@ -70,6 +70,10 @@ a:visited {
     text-align: center;
 }
 
+#sun {
+    font-family: monospace;
+}
+
 #otherSocials {
     border-top: solid 0.1rem #7a0001;
 }
