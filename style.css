@@ -44,13 +44,15 @@ a:visited {
 }
 
 #headerDivider {
+    width: 100%;
     text-align: center;
     margin-bottom: 3rem;
 }
 
 #headerDivider img {
     border: 1px solid #7a0001;
-    padding: 2rem;
+    padding: 1rem;
+    max-width: 90%;
 }
 
 #tagLine {
